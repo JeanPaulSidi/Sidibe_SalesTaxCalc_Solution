@@ -77,6 +77,7 @@ namespace Sidibe_SalesTaxCalc_Project
 
             VehicleTotalCost = VehicleBasePrice + TaxAmount + WarranteeCost;
             lblTotalCost.Text = "Total Vehicle Cost is :" + VehicleTotalCost.ToString("C");
+
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -89,6 +90,7 @@ namespace Sidibe_SalesTaxCalc_Project
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+
         }
 
         private void MainForm_Load(object sender, EventArgs e)
